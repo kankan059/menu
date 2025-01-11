@@ -63,8 +63,11 @@ section h3 {
     background: linear-gradient(to left , rgb(112, 48, 8) , rgb(214, 132, 80));
     padding: 10px;
     border-radius: 5px;
-    display: inline-block;
+    height: 60px;
+    display: flex;
     margin: 0 auto 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -80,11 +83,11 @@ section h3 {
 .khana ul li {
     text-transform: capitalize;
     background-color: #333;
-    font-size: 1.2em;
+    font-size: 1.9rem;
     margin: 10px 0;
     display: flex;
     justify-content: space-between;
-    height: 25px;
+    height: 55px;
     text-align: center;
     padding-top: 3px;
     padding-left: 20px;
@@ -104,13 +107,14 @@ section h3 {
     background-size: cover;
     background-position: center;
     animation: flow 5s alternate infinite;
-    margin-left: 50px;
+    margin: 0 auto;
+
 }
 
 .image-container {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
     background-position: center;
     border-radius: 80%;
@@ -148,7 +152,9 @@ section h3 {
 
 .contact {
     display: flex;
+    margin-top: 50px;
     padding-left: 50px;
+    justify-content: center;
 }
 
 .contact p {
@@ -235,25 +241,21 @@ footer a:hover {
     }
 
     .image-container {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
         background-size: cover;
         background-position: center;
         border-radius: 80%;
         margin: 0 20px;
     }
-
-    .images{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .khana ul li{
+        font-size: 1.2rem;
+        height: 30px;
     }
-    .images1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    section h3{
+        display: inline-block;
+        height: 30px;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -263,7 +265,7 @@ footer a:hover {
     }
     header {
         height: 8vh;
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     h1 {
@@ -281,28 +283,21 @@ footer a:hover {
 
     .section ul {
         text-align: center;
-        width: 80vw;
+        width: 85vw;
         margin: 0 auto;
     }
 
     .image-container {
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        background-position: center;
-        border-radius: 80%;
-        margin: 0 20px;
+        width: 150px;
+        height: 150px;
+  
     }
-
-    .images{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .khana ul li{
+        font-size: 1.2rem;
+        height: 30px;
     }
-    .images1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    section h3{
+        display: inline-block;
+        height: 30px;
     }
-
 }
