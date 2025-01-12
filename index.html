@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header11">
         <img src="images/japi.jpg.jpeg" alt="Japi" class="rotating-image">
         <h1>HOTEL PARIJAT MENU</h1>
         <img src="images/japi.jpg.jpeg" alt="Japi" class="rotating-image">
@@ -96,6 +96,9 @@
                 </div>
             </section>
         </div>
+        <div class="bakery">
+            <button type="button">Bakery</button>
+        </div>
 
         <section class="contact">
             <div class="contact-info">
@@ -107,10 +110,17 @@
     <section class=".gaap"></section>
     <footer>
         <div class="footer-content">
-            <p>Developed by <a href="https://www.instagram.com/kongkon_ray_" target="_blank">kongkon_ray_</a>,<a
-                    href="https://www.instagram.com/__gyan.nn_" target="_blank">gyandeep</a></p>
+            <p>Developed by <a class="logo" href="https://www.instagram.com/kongkon_ray_" target="_blank">kongkon_ray_ </a> , <a class="logo"
+                    href="https://www.instagram.com/__gyan.nn_" target="_blank">gyandeep</a><br>
+                contact:-<a href="kankanray059@gmail.com">kankanray059@gmail.com </p>
         </div>
     </footer>
 </body>
+<script>
+    const buttonA = document.querySelector('button');
+    buttonA.addEventListener("click" , ()=>{
+        window.location.href = "/BAKERY/index.html";
+    })
+</script>
 
 </html>
