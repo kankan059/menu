@@ -74,7 +74,7 @@ h1{
 .h3 {
     width: 77vw;
     height: 45px;
-    background-image: url(bg.jpeg);
+    background-image: url(images/bg.jpeg);
     display: flex;
     justify-content: center;
     align-items: center;
