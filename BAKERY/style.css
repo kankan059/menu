@@ -300,7 +300,16 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
-
+/* .bakery::before{
+    content: "click to go";
+    font-size: 20px;
+    margin-right: 12px;
+    position: absolute;
+    left: 0;
+    margin-top: 25px;
+    font-weight: 100;
+    text-transform: capitalize;
+} */
 button{
     background: radial-gradient(circle ,rgb(196, 121, 121), rgb(239, 53, 146));
     background-image: url(/images/background-2.jpeg);
@@ -317,6 +326,7 @@ button{
     align-items: center;
     border-radius: 50px;
     box-shadow: 0 4px 5px black;
+    border: 2px solid white;
 }
 button:hover{
     box-shadow: 0 2px 4px black;
