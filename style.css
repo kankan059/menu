@@ -139,7 +139,7 @@ section h3 {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    /* animation: flow 5s alternate infinite; */
+    animation: flow 5s alternate infinite;
     margin: 0 auto;
 
 }
@@ -166,7 +166,7 @@ section h3 {
     padding: 20px;
     transition: all 0.3s ease;
     color: white; 
-    animation: flowrev 2s alternate infinite;
+    /* animation: flowrev 2s alternate infinite; */
 }
 @keyframes flowrev{
     0%, 100%{
