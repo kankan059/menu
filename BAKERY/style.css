@@ -134,7 +134,7 @@ section h3 {
 }
 
 .images {
-    background: url(/images/kolpaat.png);
+    background: url(/images/back-round.png);
     width: 200px;
     height: 200px;
     display: flex;
@@ -170,7 +170,7 @@ section h3 {
     padding: 20px;
     transition: all 0.3s ease;
     color: rgb(0, 0, 0); 
-    animation: flowrev 2s alternate infinite;
+    /* animation: flowrev 2s alternate infinite; */
 }
 @keyframes flowrev{
     0%, 100%{
