@@ -152,8 +152,8 @@ section h3 {
 
 .images {
     background: url(/images/kolpaat.png);
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,8 +167,8 @@ section h3 {
 
 .image-container {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     background-size: cover;
     background-position: center;
     border-radius: 80%;
@@ -179,17 +179,15 @@ section h3 {
 .card {
     /* width: 95vw; */
     background-color: #333;
-    background: url(/images/background-2.jpeg);
+    background: url(/images/background-2.png) 100%;
     background-size: cover;
     backdrop-filter: blur(100px);
     border-radius: 50px;
-    /* Rounded corners */
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2), 0 0 15px black;
     margin: 20px 0;
     padding: 20px;
     transition: all 0.3s ease;
     color: white;
-    /* animation: flowrev 2s alternate infinite; */
 }
 
 @keyframes flowrev {
@@ -222,7 +220,7 @@ section h3 {
 }
 
 .momo {
-    background-image: url('/images/momo.jpeg');
+    background-image: url('/images/momo-circle.png');
     order: -1;
 }
 
@@ -231,13 +229,16 @@ section h3 {
 }
 
 .maggi-omlet {
-    background-image: url('/images/maggie.jpeg');
+    background-image: url('/images/maggie.jpg');
     order: -1;
 }
 
 .speacial-item {
-    background-image: url('/images/chiken.jpeg');
+    background-image: url('/images/chicken.jpeg');
 
+}
+.paratha{
+    background-image: url(/images/maggie.png);
 }
 
 .contact {
@@ -249,9 +250,10 @@ section h3 {
 
 .contact p {
     background-color: #be662b;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #000;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50px;
     display: inline-block;
     margin: 0 auto 20px;
@@ -312,9 +314,6 @@ section h3 {
     }
 }
 
-.container {
-    padding-bottom: 1250px;
-}
 
 footer {
     background-color: transparent;
@@ -323,10 +322,11 @@ footer {
     text-align: center;
     padding: 10px;
     bottom: 0;
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10%;
+
 
 }
 
@@ -352,10 +352,9 @@ button {
     background-position: center;
     color: white;
     font-weight: 1000;
-    /* text-shadow: 0 0 3px #000, 0 0 5px white; */
-    font-size: 1.5rem;
-    height: 40px;
-    width: 200px;
+    font-size: 2.5rem;
+    height: 80px;
+    width: 400px;
     margin: 40px 0 10px 0;
     display: flex;
     justify-content: center;
@@ -382,11 +381,32 @@ button:active {
         width: 96vw;
         font-size: 1rem;
     }
+    .images {
+        width: 400px;
+        height: 400px;
+    }
+    .image-container{
+        width: 320px;
+        height: 320px;
+    }
 
-
-
+    .khana ul li {
+        font-size: 2.2rem;
+        height: 70px;
+        left: 0;
+    }
+    button{
+        height: 100px;
+        width: 350px;
+        font-size: 2.5rem;
+    }
+    .contact p{
+        font-size: 2.1rem;
+    }
+    footer{
+        font-size: 1.3rem;
+    }
 }
-
 @media (max-width: 768px) {
 
     .container {
@@ -502,6 +522,10 @@ button:active {
         width: 85vw;
         margin: 0 auto;
     }
+    .images{
+        width: 200px;
+        height: 200px;
+    }
 
     .image-container {
         width: 150px;
@@ -532,5 +556,15 @@ button:active {
         width: 50px;
         height: 50px;
     }    
-
+    button{
+        height: 50px;
+        width: 250px;
+        font-size: 1.5rem;
+    }
+    .contact p{
+        font-size: 1.1rem;
+    }
+    footer{
+        font-size: 0.7rem;
+    }
 }
