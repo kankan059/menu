@@ -179,7 +179,8 @@ section h3 {
 .card {
     /* width: 95vw; */
     background-color: #333;
-    background: url(/images/background-2.png) 100%;
+    background: url(/images/background-2.png);
+    background-size: contain;
     background-size: cover;
     backdrop-filter: blur(100px);
     border-radius: 50px;
@@ -234,11 +235,11 @@ section h3 {
 }
 
 .speacial-item {
-    background-image: url('/images/chicken.jpeg');
+    background-image: url('/images/chiken-main.png');
 
 }
 .paratha{
-    background-image: url(/images/maggie.png);
+    background-image: url(/images/paratha-main.png);
 }
 
 .contact {
@@ -439,12 +440,16 @@ button:active {
     }
 
     .image-container {
-        width: 140px;
-        height: 140px;
+        width: 240px;
+        height: 240px;
         background-size: cover;
         background-position: center;
         border-radius: 80%;
         margin: 0 20px;
+    }
+    .images{
+        height: 300px;
+        width: 300px;
     }
 
     .khana ul li {
