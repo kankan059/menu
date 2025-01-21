@@ -149,6 +149,9 @@ section h3 {
     margin: 0 auto;
 
 }
+i{
+    margin: 0 2px;
+}
 
 .image-container {
     position: relative;
