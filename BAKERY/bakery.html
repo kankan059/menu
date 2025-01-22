@@ -19,6 +19,9 @@
         <h1>HOTEL PARIJAT MENU</h1>
         <img src="/images/japi.jpg.jpeg" alt="Japi" class="rotating-image-2">
     </header>
+    <div class="bakery">
+        <button id="buttonB" type="button">Translate to Assamese</button>
+    </div>
     <div class="container">
         <div class="card">
             <section>
@@ -91,7 +94,7 @@
         </div>
 
         <div class="bakery">
-            <button type="button">Fast Food</button>
+            <button id="buttonA" type="button">Fast Food</button>
         </div>
 
         <section class="contact">
@@ -124,8 +127,9 @@
         </div>
     </footer> -->
 </body>
+<!-- <script src="language.js"></script> -->
 <script>
-    const buttonA = document.querySelector('button');
+    const buttonA = document.querySelector('#buttonA');
     buttonA.addEventListener("click", () => {
         window.location.href = "/index.html";
     })

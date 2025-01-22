@@ -7,10 +7,7 @@
     <title>HOTEL PARIJAT MENU</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="#">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,6 +16,9 @@
         <h1>HOTEL PARIJAT MENU</h1>
         <img src="/images/japi.jpg.jpeg" alt="Japi" class="rotating-image-2">
     </header>
+    <div class="bakery">
+        <button id="buttonB" type="button">Translate to Assamese</button>
+    </div>
     <div class="container">
         <div class="card">
             <section>
@@ -61,7 +61,7 @@
                         <li>Chicken Pulao <span>50₹</span></li>
                         <li>Veg Fried Rice <span>20₹</span></li>
                         <li>Egg Fried Rice<span>40₹</span></li>
-                       
+
                         <li>Chicken Fried Rice <span>50₹</span></li>
                     </ul>
                 </div>
@@ -107,7 +107,7 @@
                         <li>Aloo Paratha <span>50₹</span></li>
                         <li>Chole Bhature<span>50₹</span></li>
                         <li>Roti+Dry Fry <span>70₹</span></li>
-                        
+
                     </ul>
                 </div>
             </section>
@@ -132,14 +132,18 @@
         </div>
 
         <div class="bakery">
-            <button type="button">Bakery</button>
+            <button id="buttonA" type="button">Bakery</button>
         </div>
+
+
+
 
         <section class="contact">
             <div class="contact-info">
                 <p><span class="icon">&#x1F4DE;</span> 9127155033</p>
-                <p><span class="icon">&#x1F4CD;</span> 
-                    <a href="https://maps.app.goo.gl/FU4UeuZmhHnsjcRS8" target="_blank" style="text-decoration: none; color: inherit;">
+                <p><span class="icon">&#x1F4CD;</span>
+                    <a href="https://maps.app.goo.gl/FU4UeuZmhHnsjcRS8" target="_blank"
+                        style="text-decoration: none; color: inherit;">
                         SIVSAGAR
                     </a>
                 </p>
@@ -147,19 +151,26 @@
         </section>
         <footer>
             <div class="footer-content">
-                <p>Developed by <a class="logo" href="https://www.instagram.com/kongkon_ray_" target="_blank"><i class="ri-instagram-line"></i>kongkon_ray_ </a> , <a class="logo"
-                        href="https://www.instagram.com/__gyan.nn_" target="_blank"><i class="ri-instagram-line"></i>gyandeep</a><br>
-                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kankanray059@gmail.com" target="_blank"><i class="ri-mail-line"></i>kankanray059@gmail.com</a> ,<a href="https://mail.google.com/mail/?view=cm&fs=1&to=duwarahgyandeep248@gmail.com" target="_blank"><i class="ri-mail-line"></i>duwarahgyandeep248@gmail.com</a></p>
+                <p>Developed by <a class="logo" href="https://www.instagram.com/kongkon_ray_" target="_blank"><i
+                            class="ri-instagram-line"></i>kongkon_ray_ </a> , <a class="logo"
+                        href="https://www.instagram.com/__gyan.nn_" target="_blank"><i
+                            class="ri-instagram-line"></i>gyandeep</a><br>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kankanray059@gmail.com" target="_blank"><i
+                            class="ri-mail-line"></i>kankanray059@gmail.com</a> ,<a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=duwarahgyandeep248@gmail.com"
+                        target="_blank"><i class="ri-mail-line"></i>duwarahgyandeep248@gmail.com</a>
+                </p>
             </div>
         </footer>
     </div>
 
 </body>
+<script src="language.js"></script>
 <script async>
-    const buttonA = document.querySelector('button');
-    buttonA.addEventListener("click" , ()=>{
+    const buttonA = document.querySelector('#buttonA');
+    buttonA.addEventListener("click", () => {
         window.location.href = "/BAKERY/bakery.html";
-    })
+    });
 </script>
 
 </html>

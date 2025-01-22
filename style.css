@@ -348,7 +348,7 @@ footer a:hover {
     align-items: center;
 }
 
-button {
+#buttonA {
     background: radial-gradient(circle, rgb(196, 121, 121), rgb(239, 53, 146));
     background-image: url(/images/button.png);
     background-size: contain;
@@ -366,16 +366,37 @@ button {
     box-shadow: 0 4px 5px black;
 }
 
-button:hover {
+#buttonA:hover {
     box-shadow: 0 2px 4px black;
     color: darkblue;
     opacity: 0.8;
 }
 
-button:active {
+#buttonA:active {
     background-color: yellow;
     box-shadow: 0 0 5px black;
     color: rgb(5, 5, 67);
+}
+#buttonB {
+    margin-top: 10px;
+    height: 80px;
+    width: fit-content;
+    color: white;
+    text-shadow: 0 0 3px white , 0 0 5px white;
+    box-shadow: 0 0 3px black , 0 0 5px black;
+    background: transparent;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer; 
+}
+#button:active{
+    color: white;
+    text-shadow: 0 0 3px white , 0 0 5px white;
+}
+#buttonB:hover{
+    color: #000;
+    text-shadow: none;
 }
 
 @media (max-width: 1028px) {
@@ -398,7 +419,7 @@ button:active {
         height: 70px;
         left: 0;
     }
-    button{
+    #buttonA{
         height: 100px;
         width: 350px;
         font-size: 2.5rem;
@@ -409,6 +430,12 @@ button:active {
     footer{
         font-size: 1.3rem;
     }
+    #buttonB {
+        height: 60px;
+        font-size: 25px;
+
+    }
+    
 }
 @media (max-width: 768px) {
 
@@ -493,6 +520,12 @@ button:active {
     section h3{
         font-size: 1.5rem;
     }
+    #buttonB {
+        height: 40px;
+        font-size: 16px;
+
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -563,7 +596,7 @@ button:active {
         width: 50px;
         height: 50px;
     }    
-    button{
+    #buttonA{
         height: 50px;
         width: 250px;
         font-size: 1.5rem;
@@ -573,5 +606,11 @@ button:active {
     }
     footer{
         font-size: 0.7rem;
+    }
+
+    #buttonB {
+        height: 40px;
+        font-size: 16px;
+
     }
 }
